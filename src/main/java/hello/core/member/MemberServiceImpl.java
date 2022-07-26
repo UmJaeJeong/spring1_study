@@ -1,10 +1,10 @@
 package hello.core.member;
 
-public class MemberServcieImple implements MemberService{
+public class MemberServcieImpl implements MemberService{
 
     private final MemberRepository memberRepository;
 
-    public MemberServcieImple(MemberRepository memberRepository){
+    public MemberServcieImpl(MemberRepository memberRepository){
         this.memberRepository = memberRepository;
     }
 
